@@ -16,11 +16,11 @@ class DashboardController {
         $page = in_array($page, $allowedPages) ? $page : 'home';
         
         $pageTitle = ucfirst($page);
-        $contentFile = "/app/views/dashboard/{$page}.php";
+        $contentFile = __DIR__ . "/../views/dashboard/{$page}.php";
         
-        if (!checkFileExists($contentFile)) {
+        if (!file_exists($contentFile)) {
             logDebug("Dashboard page not found, defaulting to home", ['page' => $page]);
-            $contentFile = "/app/views/dashboard/home.php";
+            $contentFile = __DIR__ . "/../views/dashboard/home.php";
         }
         
         logDebug("Rendering dashboard", [
@@ -29,7 +29,5 @@ class DashboardController {
         ]);
         
         require __DIR__ . '/../views/dashboard/layout.php';
-        
-        logDebug("Dashboard rendering complete");
     }
 }

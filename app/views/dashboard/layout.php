@@ -1,9 +1,3 @@
-<?php
-logDebug("Rendering dashboard layout", [
-    'pageTitle' => $pageTitle,
-    'contentFile' => $contentFile
-]);
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -45,11 +39,10 @@ logDebug("Rendering dashboard layout", [
     <div class="container mt-5 pt-4">
         <?php
         logDebug("Including content file", ['contentFile' => $contentFile]);
-        $fullPath = realpath(__DIR__ . str_replace('/app/views/dashboard', '', $contentFile));
-        if (file_exists($fullPath)) {
-            include $fullPath;
+        if (file_exists($contentFile)) {
+            include $contentFile;
         } else {
-            logDebug("Content file not found", ['contentFile' => $contentFile, 'fullPath' => $fullPath]);
+            logDebug("Content file not found", ['contentFile' => $contentFile]);
             echo "Error: Archivo de contenido no encontrado.";
         }
         ?>
@@ -59,6 +52,3 @@ logDebug("Rendering dashboard layout", [
     <script src="/assets/js/main.js"></script>
 </body>
 </html>
-<?php
-logDebug("Dashboard layout rendering complete");
-?>

@@ -1,8 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
-    RewriteRule ^index\.php$ - [L]
+
+    # Redirigir todas las solicitudes que no son archivos o directorios existentes a index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule . /index.php [L]
+    RewriteRule ^(.*)$ index.php [L,QSA]
 </IfModule>
