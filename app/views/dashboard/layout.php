@@ -37,15 +37,7 @@
     </nav>
 
     <div class="container mt-5 pt-4">
-        <?php
-        logDebug("Including content file", ['contentFile' => $contentFile]);
-        if (file_exists($contentFile)) {
-            include $contentFile;
-        } else {
-            logDebug("Content file not found", ['contentFile' => $contentFile]);
-            echo "Error: Archivo de contenido no encontrado.";
-        }
-        ?>
+        <?php echo $content; ?>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

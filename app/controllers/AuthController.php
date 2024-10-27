@@ -22,6 +22,7 @@ class AuthController {
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['user_name'] = $user['name'];
                 $_SESSION['user_type'] = $user['type'];
+                logDebug("User logged in successfully", ['user_id' => $user['id']]);
                 header('Location: /dashboard');
                 exit;
             } else {
@@ -29,7 +30,7 @@ class AuthController {
             }
         }
         
-        require __DIR__ . '/../views/auth/login.php';
+        echo view('auth/login', ['error' => $error ?? null]);
     }
 
     public function logout() {

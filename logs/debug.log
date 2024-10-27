@@ -1,6 +1,6 @@
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
-    "uri": "\/login",
+    "uri": "\/",
     "method": "GET",
     "authenticated": true,
     "session": {
@@ -10,12 +10,12 @@
     },
     "parts": [
         "",
-        "login"
+        ""
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -30,9 +30,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -47,9 +47,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -64,9 +64,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -81,9 +81,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -98,9 +98,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -115,9 +115,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -132,9 +132,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -149,9 +149,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -166,9 +166,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -183,9 +183,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -200,9 +200,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -217,9 +217,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -234,9 +234,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -251,9 +251,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -268,9 +268,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -285,9 +285,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -302,9 +302,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -319,9 +319,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:42] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -336,26 +336,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:42] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
-{
-    "uri": "\/login",
-    "method": "GET",
-    "authenticated": true,
-    "session": {
-        "user_id": 1,
-        "user_name": "Yesenlee Newman",
-        "user_type": "D"
-    },
-    "parts": [
-        "",
-        "login"
-    ]
-}
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
-
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -370,9 +353,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -387,9 +370,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -404,9 +387,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -421,9 +404,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -438,9 +421,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -455,9 +438,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -472,9 +455,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -489,9 +472,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -506,9 +489,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -523,9 +506,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -540,9 +523,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -557,9 +540,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -574,9 +557,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -591,9 +574,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -608,9 +591,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -625,9 +608,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -642,9 +625,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -659,9 +642,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:01] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -676,9 +659,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:01] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:43] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -693,9 +676,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:43] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -710,9 +693,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -727,9 +710,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -744,9 +727,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -761,9 +744,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -778,9 +761,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -795,9 +778,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -812,9 +795,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -829,9 +812,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -846,9 +829,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -863,9 +846,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -880,9 +863,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -897,9 +880,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -914,9 +897,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:02] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -931,9 +914,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:02] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:03] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -948,9 +931,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:03] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:03] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -965,9 +948,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:03] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:03] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -982,9 +965,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:03] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:03] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -999,9 +982,9 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:03] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
 
-[2024-10-27 04:48:03] Request received
+[2024-10-27 04:54:48] Request received
 {
     "uri": "\/dashboard",
     "method": "GET",
@@ -1016,5 +999,702 @@
         "dashboard"
     ]
 }
-[2024-10-27 04:48:03] Authenticated user accessing login page, redirecting to dashboard
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:54:48] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:54:48] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:18] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:18] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:55:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:55:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
+
+[2024-10-27 04:56:19] Request received
+{
+    "uri": "\/dashboard",
+    "method": "GET",
+    "authenticated": true,
+    "session": {
+        "user_id": 1,
+        "user_name": "Yesenlee Newman",
+        "user_type": "D"
+    },
+    "parts": [
+        "",
+        "dashboard"
+    ]
+}
+[2024-10-27 04:56:19] Authenticated user accessing login page, redirecting to dashboard
 

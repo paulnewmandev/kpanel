@@ -5,14 +5,7 @@ ini_set('display_errors', 1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../config/config.php';
-
-function logDebug($message, $context = []) {
-    $logFile = __DIR__ . '/../logs/debug.log';
-    $timestamp = date('[Y-m-d H:i:s]');
-    $contextString = !empty($context) ? json_encode($context, JSON_PRETTY_PRINT) : '';
-    $logMessage = "$timestamp $message\n$contextString\n";
-    file_put_contents($logFile, $logMessage, FILE_APPEND);
-}
+require_once __DIR__ . '/../app/helpers/functions.php';
 
 $request = $_SERVER['REQUEST_URI'];
 $base_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -35,7 +28,7 @@ logDebug("Request received", [
     'parts' => $parts
 ]);
 
-if ($isAuthenticated && ($parts[0] === '' || $parts[0] === 'login')) {
+if ($isAuthenticated && in_array($parts[0], ['', 'login'])) {
     logDebug("Authenticated user accessing login page, redirecting to dashboard");
     header('Location: /dashboard');
     exit;
@@ -47,34 +40,44 @@ if (!$isAuthenticated && !in_array($parts[0], ['', 'login'])) {
     exit;
 }
 
+$controller = null;
+$action = 'index';
+
 switch ($parts[0]) {
     case '':
     case 'login':
-        logDebug("Handling login request");
-        require __DIR__ . '/../app/controllers/AuthController.php';
-        $controller = new AuthController();
-        $controller->login();
+        $controller = 'Auth';
+        $action = 'login';
         break;
     case 'dashboard':
-        logDebug("Handling dashboard request");
-        if (!$isAuthenticated) {
-            logDebug("Unauthenticated user accessing dashboard, redirecting to login");
-            header('Location: /login');
-            exit;
-        }
-        require __DIR__ . '/../app/controllers/DashboardController.php';
-        $controller = new DashboardController();
-        $controller->index(isset($parts[1]) ? $parts[1] : 'home');
+        $controller = 'Dashboard';
+        $action = isset($parts[1]) ? $parts[1] : 'index';
         break;
     case 'logout':
-        logDebug("Handling logout request");
-        require __DIR__ . '/../app/controllers/AuthController.php';
-        $controller = new AuthController();
-        $controller->logout();
+        $controller = 'Auth';
+        $action = 'logout';
         break;
     default:
-        logDebug("404 Not Found", ['request' => $request]);
         http_response_code(404);
         echo "404 Not Found";
-        break;
+        exit;
+}
+
+$controllerName = ucfirst($controller) . 'Controller';
+$controllerFile = __DIR__ . "/../app/controllers/{$controllerName}.php";
+
+if (file_exists($controllerFile)) {
+    require_once $controllerFile;
+    $controllerInstance = new $controllerName();
+    if (method_exists($controllerInstance, $action)) {
+        $controllerInstance->$action();
+    } else {
+        logDebug("Action not found", ['controller' => $controllerName, 'action' => $action]);
+        http_response_code(404);
+        echo "404 Not Found";
+    }
+} else {
+    logDebug("Controller not found", ['controller' => $controllerName]);
+    http_response_code(404);
+    echo "404 Not Found";
 }

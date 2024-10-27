@@ -1,33 +1,35 @@
 <?php
 class DashboardController {
-    public function index($page = 'home') {
-        logDebug("DashboardController::index called", [
-            'page' => $page,
-            'session' => $_SESSION
-        ]);
-        
+    public function index() {
         if (!isset($_SESSION['user_id'])) {
-            logDebug("Unauthenticated user in dashboard, redirecting to login");
             header('Location: /login');
             exit;
         }
 
-        $allowedPages = ['home', 'users', 'services'];
-        $page = in_array($page, $allowedPages) ? $page : 'home';
-        
-        $pageTitle = ucfirst($page);
-        $contentFile = __DIR__ . "/../views/dashboard/{$page}.php";
-        
-        if (!file_exists($contentFile)) {
-            logDebug("Dashboard page not found, defaulting to home", ['page' => $page]);
-            $contentFile = __DIR__ . "/../views/dashboard/home.php";
+        $pageTitle = 'Dashboard';
+        $content = view('dashboard/home');
+        echo view('dashboard/layout', ['pageTitle' => $pageTitle, 'content' => $content]);
+    }
+
+    public function users() {
+        if (!isset($_SESSION['user_id'])) {
+            header('Location: /login');
+            exit;
         }
-        
-        logDebug("Rendering dashboard", [
-            'page' => $page,
-            'contentFile' => $contentFile
-        ]);
-        
-        require __DIR__ . '/../views/dashboard/layout.php';
+
+        $pageTitle = 'Gestionar Usuarios';
+        $content = view('dashboard/users');
+        echo view('dashboard/layout', ['pageTitle' => $pageTitle, 'content' => $content]);
+    }
+
+    public function services() {
+        if (!isset($_SESSION['user_id'])) {
+            header('Location: /login');
+            exit;
+        }
+
+        $pageTitle = 'Gestionar Servicios';
+        $content = view('dashboard/services');
+        echo view('dashboard/layout', ['pageTitle' => $pageTitle, 'content' => $content]);
     }
 }
