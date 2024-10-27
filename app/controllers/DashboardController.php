@@ -1,6 +1,14 @@
+
 <?php
 class DashboardController {
+    public function __construct() {
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+    }
+
     public function index() {
+        // Ensure user is logged in
         if (!isset($_SESSION['user_id'])) {
             header('Location: /login');
             exit;
@@ -12,6 +20,7 @@ class DashboardController {
     }
 
     public function users() {
+        // Ensure user is logged in
         if (!isset($_SESSION['user_id'])) {
             header('Location: /login');
             exit;
@@ -23,6 +32,7 @@ class DashboardController {
     }
 
     public function services() {
+        // Ensure user is logged in
         if (!isset($_SESSION['user_id'])) {
             header('Location: /login');
             exit;
